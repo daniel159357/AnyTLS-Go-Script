@@ -31,14 +31,16 @@
 你可以通过以下任一命令下载脚本：
 
 ```bash
-wget -O anytls_manager.sh https://raw.githubusercontent.com/tianrking/AnyTLS-Go/refs/heads/main/anytls_manager.sh
-````
+wget -O anytls_manager.sh https://raw.githubusercontent.com/tianrking/AnyTLS-Go-Script/refs/heads/main/anytls_manager.sh
+```
 
 或者
 
 ```bash
-curl -o anytls_manager.sh -L https://raw.githubusercontent.com/tianrking/AnyTLS-Go/refs/heads/main/anytls_manager.sh
+curl -L -o anytls_manager.sh https://raw.githubusercontent.com/tianrking/AnyTLS-Go-Script/refs/heads/main/anytls_manager.sh
 ```
+
+> 注意：请确认下载地址为 `AnyTLS-Go-Script` 仓库，而不是 `AnyTLS-Go` 仓库；否则可能会下载到 `404: Not Found` 内容，导致运行脚本时报错。
 
 ### 2\. 赋予执行权限
 
